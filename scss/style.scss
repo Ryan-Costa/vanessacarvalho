@@ -932,6 +932,10 @@ section.text14 {
                         @media (max-width: 1306px) {
                             text-align: center;
                         }
+
+                        @media (max-width: 768px) {
+                            font-size: 4.8rem;
+                        }
                     }
                 }
 
