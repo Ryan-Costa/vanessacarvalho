@@ -491,13 +491,13 @@ section.category1 .inner-container .categories-container > div {
   }
 }
 section.category1 .inner-container .categories-container .card-category {
-  width: 14.4rem;
-  height: 21.4rem;
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 section.category1 .inner-container .categories-container .card-category a {
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -509,22 +509,34 @@ section.category1 .inner-container .categories-container .card-category img {
   -o-object-fit: cover;
      object-fit: cover;
   transition: 0.3s ease-out;
+  margin-bottom: -7.2rem;
+  z-index: 2;
+  border: 3px solid #BB8C4F;
 }
-section.category1 .inner-container .categories-container .card-category strong {
+section.category1 .inner-container .categories-container .card-category .card-text {
+  width: 100%;
+  display: flex;
+  gap: 0.8rem;
+  flex-direction: column;
+  align-items: center;
+  background-color: #27241F;
+  padding: 7.2rem 4.8rem 4.8rem;
+}
+section.category1 .inner-container .categories-container .card-category .card-text strong {
   font-family: "Jost", sans-serif;
   font-weight: 500;
-  font-size: 2.4rem;
-  color: #222;
-  margin-top: 1.6rem;
+  font-size: 3.2rem;
+  color: #fff;
   line-height: normal;
   transition: 0.3s ease-in-out;
 }
-section.category1 .inner-container .categories-container .card-category p {
+section.category1 .inner-container .categories-container .card-category .card-text p {
   font-family: "Jost", sans-serif;
   font-weight: 300;
   font-size: 1.6rem;
-  color: #6F6F6F;
-  margin-top: 0.4rem;
+  text-align: center;
+  white-space: pre;
+  color: #BB8C4F;
   line-height: normal;
   transition: 0.3s ease-in-out;
 }
